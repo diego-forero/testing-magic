@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import catalogRoutes from './routes/catalog';
+import catalogRoutes from './routes/catalog.js';
 
 dotenv.config();
 const app = express();

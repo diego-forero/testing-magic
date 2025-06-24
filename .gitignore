@@ -1,0 +1,11 @@
+# dependencias
+node_modules/
+.pnpm/
+# compilados
+dist/
+build/
+# entornos
+.env
+*.local.json
+# IDE
+.vscode/
